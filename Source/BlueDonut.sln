@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueDonut.Core", "BlueDonut.Core\BlueDonut.Core.csproj", "{A9BB15C6-2D0C-4E1C-9A81-1470B18BAB16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueDonut.Core", "BlueDonut.Core\BlueDonut.Core.csproj", "{A9BB15C6-2D0C-4E1C-9A81-1470B18BAB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueDonut.AndroidApp", "BlueDonut.AndroidApp\BlueDonut.AndroidApp.csproj", "{4A483069-D400-450A-BA56-A967AD63F213}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{A9BB15C6-2D0C-4E1C-9A81-1470B18BAB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9BB15C6-2D0C-4E1C-9A81-1470B18BAB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9BB15C6-2D0C-4E1C-9A81-1470B18BAB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A483069-D400-450A-BA56-A967AD63F213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A483069-D400-450A-BA56-A967AD63F213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A483069-D400-450A-BA56-A967AD63F213}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A483069-D400-450A-BA56-A967AD63F213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A483069-D400-450A-BA56-A967AD63F213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A483069-D400-450A-BA56-A967AD63F213}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
